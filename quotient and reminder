@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int a,b,q,r;
+cout<<"Enter A and B"<<endl;
+cin>>a>>b;
+q=a/b;
+r=a%b;
+cout<<"Quotient:"<<q<<endl;
+cout<<"Reminder:"<<r;
+return 0;
+}
