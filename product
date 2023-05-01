@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int a,b,product;
+cout<<"Enter A and B"<<endl;
+cin>>a>>b;
+product=a*b;
+cout<<product;
+return 0;
+}
