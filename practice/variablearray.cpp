@@ -21,13 +21,13 @@ int main() {
     }
 
     for(p=0;p<t;p++){
-        
+        cin>>a;
         vector<int> tempo;
-        for( s=0;s<y;s++){
+        for( s=1;s<2;s++){
             cin>>b;
             tempo.push_back(b);
         }
-         cout<<v[p][b]<<endl;
+         cout<<v[a][b]<<endl;
         q.push_back(tempo);
          
     }
